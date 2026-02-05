@@ -1,9 +1,15 @@
-import Image from "next/image";
+
+import Hero from "./components/landing-page/hero";
 
 export default function Home() {
   return (
-    <div style={{ background: 'var(--color-background-primary)' }}>
-      <h1 style={{ color: 'var(--color-accent-green)' }}>Hello World!</h1>
+    <div className="max-w-7xl mx-auto">
+      <Hero />
+      
+      {/* <Header />
+      <VideoExplanation />
+      <Pricing />
+      <FAQ /> */}
     </div>
   );
 }
